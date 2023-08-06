@@ -6,6 +6,13 @@ import spotipy
 from spotipy.oauth2 import SpotifyPKCE
 import pandas as pd
 
+# TICKETMASTER_KEY="yR57NIPjhMofAacNGhhmqKhT6tdUKDYM"
+# url= f"https://app.ticketmaster.com/discovery/v2/events?apikey={TICKETMASTER_KEY}&locale=*&countryCode=CA"
+# url +="&keyword=rema"
+# # concert_artists.append(url)
+# response=requests.get(url)
+# json_response = response.json()
+# print(json_response["_embedded"]["events"][1]["_embedded"]["venues"][0]["name"])
 
 SPOTIPY_CLIENT_ID = ""
 SPOTIPY_REDIRECT_URI = ""
